@@ -1,0 +1,16 @@
+.footer {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 2% 8%;
+    background-color: #151419;
+    border: 1px #ffadc0 solid;
+    box-shadow: red 2px 2px 10px 2px;
+}
+
+.contact>h3{
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+
+}

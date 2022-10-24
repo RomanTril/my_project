@@ -1,0 +1,85 @@
+.header {
+    height: 100px;
+    background-color: #151419;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 10px 10px 1px rgb(255, 0, 0);
+    padding: 1% 5%;
+    margin-bottom: 30px;
+    border: 1px pink solid;
+
+}
+.wrap_logo{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% ;
+    border: white 1px solid;
+    box-shadow: red 1px 1px 10px 1px;
+}
+
+.wrap_logo:hover{
+    box-shadow: yellow 1px 1px 10px 1px;
+}
+.inputs:hover{
+    box-shadow: yellow 1px 1px 10px 1px;
+}
+.form_button:hover{
+    color: yellow;
+}
+.toggle:hover{
+     box-shadow: yellow 1px 1px 10px 1px;
+ }
+
+.logo {
+    width: 90px;
+    color: #ffadc0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+}
+
+.form {
+    line-height: 20px;
+    background: none;
+    margin-left: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.inputs{
+    font-size: 20px;
+    background: #2f2626;
+    border: white 1px solid;
+    width: 100%;
+    box-shadow: red 1px 1px 10px 1px;
+}
+
+.toggle{
+    font-size: 40px;
+    color: #ff0000;
+    margin-left: auto;
+    box-shadow: red 1px 1px 10px 1px;
+    border-radius: 35px;
+    height: 35px;
+    width: 50px;
+    border: white 1px solid;
+    cursor:pointer;
+
+}
+
+.form_button{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: #ff0000;
+    position: absolute;
+    right: -35px;
+    border-radius: 10px;
+    cursor:pointer;
+}
